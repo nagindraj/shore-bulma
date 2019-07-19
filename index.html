@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bulma Application</title>
+	<link rel="stylesheet" href="node_modules\bulma\css\bulma.min.css">
+	<link rel="stylesheet" href="src\css\common.css">
+  </head>
+  <body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-item" id="logo">
+				<a href="">
+					<img src="./src/images/logo_douglas_black.svg" width="112" height="28">
+				</a>
+				<div>
+					Beauty Booking
+				</div>
+			</div>
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-end">
+				<div class="navbar-item">
+					<span>+49 89 41614330</span>
+				</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="hero banner1 is-info is-medium">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-4-desktop is-6-tablet">
+						<h1 class="title column">
+							Mehr als 8 Mio. Loyale Kunden Warten auf Sie
+						</h1>
+						<p class="subtitle column">
+							Werden Sie Teil der Premiumplattform Furiseur-<br/>
+							und Beautysalons von Douglas.
+						</p>
+						<ul class="hero-list column">
+							<li class="arrowIcon">
+								<span>Kostenloss Salonprofil inklusive online-<br />
+								<div id="terminal-lable">Terminbuchung ohne provision*</div></span>
+							</li>
+							<li class="arrowIcon">
+								<span>Plattformbesucher als neukunden gewinnen</span>
+							</li>
+							<li class="arrowIcon">
+								<span>Digitale Termin-und kunderverwaltgung mit shore</span>
+							</li>
+						</ul>
+						<div class="btn">
+							<a class="button is-bold is-medium" id="hero-button">ICH WILL DABEI SEIN</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hero banner2">
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<h1>WERDE SIE TEIL DER EXKLUSIVEN BEAUTY PLATTFORM VON DOUGLAS UND GEWINNEN SIE NEUE KUNDEN! </h1>
+				</div>
+				<div class="column is-subtitle">
+					<div class="column icon-1 is-icon-background">
+						<span>Die ersten Partner jeder Stadt bezahlen fur die gesamte Vertragslaufzeit keine Provision.</span>
+					</div>
+					<div class="column icon-2 is-icon-background">
+						<span>Sie erhalten Zugang zu uber 8 Millionen Douglas-Kunden deutschlandweit.</span>
+					</div>
+					<div class="column icon-3 is-icon-background">
+						<span>Ihre Kunden sammeln Douglas Beauty Points, die sie in Douglas-Filialen und auf douglas.de gegen Pramien ein-</span>
+					</div>
+				</div>
+				<div class="column is-subtitle">
+					<div class="column icon-4 is-icon-background">
+						<span>Ein Gratis-Fotoshooting sponsored by Douglas rundet ihr Profil auf der Plattform professionell ab.</span>
+					</div>
+					<div class="column icon-5 is-icon-background">
+						<span>Sie profitieren von der Bewerbung der Plattform uber die marketing-Channels von Douglas.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container pincode-section">
+			<div class="card">
+				<div class="card-content">
+					<div class="content">
+						Neue kunden aus Ihrer Nachbarschaft! Sehen Sie selbst wie viele Doughlas-Kunden es in Ihrer Nachbarsechaft gibt.
+					</div>
+					<form class="columns">
+						<input class="input column" id="pincodeText" type="text" placeholder="Ihre Postleitzahi">
+						<a class="button is-bold column" id="pincodeModal">JETZT UBERPRUFEN</a>
+					</form>
+					<p class="help is-danger" id="postal-help"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="registration">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-4-desktop is-5-tablet card-section">
+					<h2>SIE WOLLEN DABEI SEIN UND NEUE KUNDEN GEWINNEN?</h2>
+					<p>Vereinbaren Sie ein kostenloses Beratungsgesprach</p>
+				</div>
+				<div class="column form-section is-8-desktop is-7-tablet">
+					<form name="user-form" class="column is-6-desktop is-8-tablet  is-8-mobile">
+						<div class="field column">
+							<div class="control">
+								<input id="name" class="input" type="text" placeholder="Ihr Name">
+							</div>
+							<p class="help" id="name-help"></p>
+						</div>
+						<div class="field column">
+							<div class="control">
+								<input id="email" class="input" type="email" placeholder="Ihre E-Mail-Adresse">
+							</div>
+							<p class="help" id="email-help"></p>
+						</div>
+						<div class="field column">
+							<div class="control">
+								<input id="phone" class="input" type="text" placeholder="Ihre Telefonnr">
+							</div>
+							<p class="help" id="phone-help"></p>
+						</div>
+						<div class="field column">
+							<label class="checkbox">
+								<input id="toc" type="checkbox">
+								Ja,ich mochte E-Mails mit u.a Business Tipps, Produktneuigkeiten, Angeboten und Events von Shore erhalten. Ich kann diese Einwilligung jederarzeit widerrufen. Ich habe die Hinweise zum Datenschutz gelesen und arklare mich mit ihnen einverstaden.
+							</label>
+							<p class="help" id="toc-help"></p>
+						</div>
+						<div class="field column">
+							<a class="button is-bold is-black" id="submit">JETZT UNVERBINDLINCH ANFRAGEN</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container meeting-section">
+			<div class="meeting-heading">
+				<h2><b>SHORE + DOUGLAS</b></h2>
+				<p>Neben der exklusiven Mitgliedschaft erhalten</p>
+				<p>Sie zudem eine umfangreiche Softwarelosung, um lhr</p>
+				<p>Unternehmen erfolgreich zu verwalten</p>
+			</div>
+			<div class="columns">
+				<div class="column is-4-desktop is-5-tablet">
+					<div class="column meeting-icon1 is-meeting-icon-background">
+						<span>Online-Terminbuchung auch uber ihre Website, Facebook und Google.</span>
+					</div>
+					<div class="column meeting-icon2 is-meeting-icon-background">
+						<span>Cloudbasierte und mobile Ter-minverwaitung uber den Shore Online-Kalender</span>
+					</div>
+					<div class="column meeting-icon3 is-meeting-icon-background">
+						<span>Digitales und kinderleichtes Kundenmanagement auf allen End-geraten</span>
+					</div>
+					<div class="column meeting-icon4 is-meeting-icon-background">
+						<span>Automatische Terminerinnerungen an Ihre Kunden per Email order SMS</span>
+					</div>
+					<div class="column">
+						<a href="https://www.shore.com/en/pricing/" class="button is-black is-bold is-medium">MEHR UBER SHORE ERFAHREN</a>
+					</div>
+				</div>
+				<div class="column">
+					 <img src="./src/images/partnerships.png"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal" id="pincode_present">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<div class="columns">
+				<div class="column is-4 profile-img-present">
+				</div>
+				<div class="column is-8 profile-details">
+					<header class="modal-card-head">
+						<p class="modal-card-title"></p>
+						<button class="delete" aria-label="close"></button>
+					</header>
+					<section class="modal-card-body">
+						<div class="content">
+							<h2>
+								Gluckwunsch!
+							</h2>
+							<p id="modal-title" class="is-bold">
+								
+							</p>
+							<p> Treten Sie jetzt mit uns in Kontakt und schopfen sie dieses Kundenpotenzial zusammen mit Douglas und Shore voil aus</p>
+							<a class="button is-black">JETZT UNVERBINDLICH ANFRAGEN</a>
+						</div>
+					</section>
+					<footer class="modal-card-foot">
+						
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="pincode_absent">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<div class="columns">
+				<div class="column is-4 profile-img-absent">
+				</div>
+				<div class="column is-8 profile-details">
+					<header class="modal-card-head">
+						<p class="modal-card-title"></p>
+						<button class="delete" aria-label="close"></button>
+					</header>
+					<section class="modal-card-body">
+						<div class="content">
+							<h3 class="modal-title">Leider Konnten wir diese Postleit-zahl nicht finden.</h3>
+							<p> Melden Sie sich bei unverbindlich bei uns. Gemeinsam finden wir heraus wie auch Sie von Douglas-kunden in Ihrer Nahe profitieren konnen</p>
+							<a class="button is-black">JETZT UNVERBINDLICH ANFRAGEN</a>
+						</div>
+					</section>
+					<footer class="modal-card-foot">
+						<a>Nochmal versuchen</a>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container is-clearfix">
+			<ul class="is-pulled-left">
+				<li><a href="#">ABG und Widerrufsbelehrung</a></li>
+				<li><a href="#">Impressum</a></li>
+				<li><a href="#">Datenschutz</a></li>
+			</ul>
+			<div class="is-pulled-right">
+				<img src="./src/images/logo_douglas_black.svg" width="112" height="28">
+			</div>
+		</div>
+	</footer>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="src/js/postalcode.js"></script>
+	<script src="src/js/common.js"></script>
+  </body>
+</html>

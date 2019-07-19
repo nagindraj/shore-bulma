@@ -1,0 +1,311 @@
+@font-face {
+    font-family: douglasFont;
+    src: url(../fonts/ZahrahforDouglas-Regular.woff);
+}
+
+@font-face {
+    font-family: douglasBold;
+    src: url(../fonts/AvenirNext-Bold.woff);
+}
+body {
+    font-family: douglasFont;
+}
+
+.hero.banner2 h1 {
+    padding-top: 2rem;
+    font-weight: 600px !important;
+    font-size: 1.5rem;
+}
+
+.hero.banner2 .is-subtitle {
+    color: gray;
+}
+
+#registration h3 {
+    padding-right: 1.5rem;
+}
+
+.meeting-heading p {
+    font-family: douglasFont;
+}
+
+#logo {
+    flex-direction: column;
+}
+
+.button {
+    font-size: 0.8rem;
+    padding: 1.4rem;
+    border-radius: 2px;
+}
+
+.button.is-medium {
+    font-size: 0.9rem;
+}
+
+.is-bold {
+    font-weight: 700;
+}
+
+.is-title {
+    font-size: 1rem;
+}
+
+.is-subtitle {
+    font-size: 0.7rem;
+}
+
+.is-icon-background {
+    background-size: 80px 50px;
+    padding: 13px 5px 0px 80px;
+    background-position: left top;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+    font-size: 13px;
+}
+
+.icon-1 {
+    background-image: url("../icons/no_extra_cost_style.svg");
+}
+
+.icon-2 {
+    background-image: url("../icons/customer_management_style.svg");
+}
+
+.icon-3 {
+    background-image: url("../icons/points_style.svg");
+}
+
+.icon-4 {
+    background-image: url("../icons/web_presentation_style.svg");
+}
+
+.icon-5 {
+    background-image: url("../icons/newsletter_style.svg");
+}
+
+.hero.banner1 {
+    background: url(../images/hero_desktop.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.hero.banner2 {
+    background: #f7f7f7 url("../images/map.jpg");
+    background-size:100% 400px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    min-height: 600px;
+}
+.banner2 .container:first-child {
+    background: #d9f7f5;
+    position: relative;
+    top: -60px;
+    padding: 30px;
+    flex-grow: initial;
+}
+.arrowIcon {
+    background: url("../icons/arrow_green.svg") no-repeat;
+    background-size: 30px 10px;
+    padding: 0px 5px 0px 40px;
+    background-position: left 9px;
+}
+.footer {
+    background: #d9f7f5;
+    padding: 20px;
+}
+.footer ul li {
+    display: inline-block;
+    padding: 5px;
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: black;
+    font-family: douglasBold;
+}
+.meeting-section .meeting-heading {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.meeting-icon1 {
+    background-image: url("../icons/online_booking_style.svg");
+}
+
+.meeting-icon2 {
+    background-image: url("../icons/domain_style.svg");
+}
+
+.meeting-icon3 {
+    background-image: url("../icons/responsive_style.svg");
+}
+
+.meeting-icon4 {
+    background-image: url("../icons/notification_style.svg");
+}
+
+.is-meeting-icon-background {
+    background-size: 80px 50px;
+    padding: 2px 5px 0px 80px;
+    background-position: left top;
+    margin: 20px 0;
+    background-repeat: no-repeat;
+}
+
+.form-section {
+    background: #fff url("../images/profile.png") no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+}
+.form-section .field input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.form-section .field.column{
+    padding: 0;
+}
+.card-section {
+    background: #d9f7f5;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.pincode-section {
+    margin-top: -2rem;
+}
+
+.pincode-section .card-content{
+    border-bottom: 10px solid #d9f7f5;
+    max-width: 500px;
+    padding: 30px 60px;
+}
+.pincode-section form{
+    border-bottom: 1px solid #000;
+}
+.pincode-section form .input, .pincode-section form .button {
+    border: none;
+    box-shadow: none;
+}
+.pincode-section form .button {
+    text-align: right;
+}
+.modal-background {
+    background-color: rgba(10,10,10,.6);
+}
+.modal-card-head, .modal-card-foot {
+    background: #fff;
+    border-radius: 0px;
+    border: none;
+}
+.modal-card .column {
+    padding: 0;
+}
+.profile-img-present {
+    background: url("../images/loyalty_card_scanner_image_b.jpg");
+    background-size: 100% 100%;
+}
+.profile-img-absent {
+    background: url("../images/loyalty_card_scanner_image_a.jpg");
+    background-size: 100% 100%;
+}
+.profile-details {
+    padding: 20px;
+}
+.modal-card-body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.modal-card-foot {
+    padding: 0 2rem 3rem 2rem;
+}
+
+.modal-card-foot a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.form-section {
+    padding: 10px;
+    box-shadow: 0 6px 6px -6px #888888;
+}
+
+#pincodeText{
+    margin-top: 13px;
+}
+
+.button {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero.banner1 {
+        background: url(../images/hero_mobile.jpg) no-repeat;
+        background-size: 100% 960px;
+        min-height: 960px;
+    }
+    .hero.banner2 {
+        background-size:100% 450px;
+        min-height: 1100px;
+    }
+    .modal-card, .modal-content {
+        width: 70%;
+    }
+    .pincode-section form {
+        border: none;
+    }
+    .form-section{
+        padding: 1.5em;
+        box-shadow: none;
+        margin-bottom: 20px;
+    }
+    #pincodeText {
+        margin-top: 13px;
+        padding-left: 1.5rem;
+    }
+    #pincodeModal {
+        text-align: left;
+    }
+
+    .button {
+        font-size: 0.7rem;
+    }
+
+    .card {
+        min-height: 340px;
+    }
+}
+@media (min-width: 769px) {
+    .hero.banner1 {
+        background: url(../images/hero_tablet.jpg) no-repeat;
+        background-size: 100% 100%;
+        min-height: 400px;
+    }
+    .hero.banner2 {
+        min-height: 800px;
+    }
+    .form-section {
+        position: relative;
+        left: -50px;
+        top: -30px;
+    }
+    #pincodeText {
+        margin-top: 13px;
+        padding-left: 1.5rem;
+    }
+    #pincodeModal {
+        text-align: left;
+    }
+}
+@media (min-width: 1025px) {
+    .hero.banner1 {
+        background: url(../images/hero_desktop.jpg) no-repeat;
+        background-size: 100% 100%;
+        min-height: 500px;
+    }
+}

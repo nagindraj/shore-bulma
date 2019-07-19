@@ -1,0 +1,22 @@
+{
+  "name": "shore_assignment",
+  "version": "1.0.0",
+  "description": "Offline Challenge for the Job Opening",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Bulma"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "bulma-start": "0.0.3",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "jquery": "^3.4.1"
+  }
+}
