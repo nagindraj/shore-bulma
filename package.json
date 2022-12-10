@@ -15,7 +15,7 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "bulma-start": "0.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^4.0.2",
     "jquery": "^3.4.1"
   }
